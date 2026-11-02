@@ -1,0 +1,31 @@
+{
+  "selector": "23 synthetic CPU geometry tests passed; copied modules byte-identical to recorded source snapshot.",
+  "standalone_smoke": "Auto/manual/any API plus single-scene and CSV CLI passed in isolated copy.",
+  "saved_demo": {
+    "status": "passed",
+    "exported_assets_verified": 14,
+    "exact_parent_payloads": 10,
+    "scenes_verified_in_chrome": 10,
+    "detection_frames_verified_in_chrome": 190,
+    "interaction_checks": {
+      "slider": true,
+      "held_detection": true,
+      "step": true,
+      "collision_filter": true,
+      "selection": true,
+      "play_pause": true,
+      "next_scene": true,
+      "dataset_switch": true,
+      "search": true
+    },
+    "offline_file_load": true,
+    "javascript_errors": [],
+    "compression": "Lossless gzip/base64; decoded payloads and all190 browser detection frames rechecked."
+  },
+  "limitations": [
+    "Saved detections, not a fresh run of the current selector.",
+    "Potential locations only; no contact or reachability validation.",
+    "All10 display payloads matched saved source; original nuPlan inputs for5 were unavailable at validation time.",
+    "Illustrative subset chosen by heuristic-label diversity, not benchmark selection."
+  ]
+}

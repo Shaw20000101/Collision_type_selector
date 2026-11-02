@@ -1,0 +1,33 @@
+{
+  "snapshot_utc": "2026-11-02T12:46:40.051620+00:00",
+  "project": "TopoR2F",
+  "git_head_context_only": "dcba1c85dc8d0984be9649e0b3129cdaf5bb5f0d",
+  "identity_note": "Copied actual workspace bytes, including untracked/dirty sources; Git HEAD alone does not identify this snapshot. Core copies are byte-identical. No model, dataset, weights, generated candidates or experiment rerun included.",
+  "rule_source": "docs/WOMD_VALIDATION500_20261102.md; intersection_rule_v2",
+  "files": [
+    {
+      "source": "scripts/scan_collision_opportunities.py",
+      "copy": "scan_collision_opportunities.py",
+      "sha256": "e21becc8eb3e3b1cbce1ae6bd065cec990ddee31b68bf58c7139a7036a20e0bd",
+      "source_git_status": "?? scripts/scan_collision_opportunities.py"
+    },
+    {
+      "source": "scripts/collision_type_control.py",
+      "copy": "collision_type_control.py",
+      "sha256": "10676bb381fd4dbf80f7f42a5809a3565520cdbeabba621a518bf68746f843b5",
+      "source_git_status": "?? scripts/collision_type_control.py"
+    },
+    {
+      "source": "scripts/test_scan_collision_opportunities.py",
+      "copy": "test_scan_collision_opportunities.py",
+      "sha256": "6a35db5cb759896ed14a3bd959d20dbc07051c0554c892ae82558d89bd5a63ae",
+      "source_git_status": "?? scripts/test_scan_collision_opportunities.py"
+    },
+    {
+      "source": "scripts/test_intersection_cutin_guard.py",
+      "copy": "test_intersection_cutin_guard.py",
+      "sha256": "ff018243dce8de84e1c60e4f8731739a4949b3cf662e340de45ca4d6a1b3c0c1",
+      "source_git_status": "?? scripts/test_intersection_cutin_guard.py"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "snapshot_date": "2026-10-22",
+  "public_copy_date": "2026-11-02",
+  "source_project": "TopoR2F",
+  "parent_site_id": "site-opportunity-8767",
+  "parent_run_id": "run-opportunity-scan200-20261022",
+  "selection": "Alternate Waymo/nuPlan five times; maximize new road labels (weight10) and risk types (weight3), then fewer road labels, then original order; exclude unmatched scenes.",
+  "road_label_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "risk_types": [
+    "cut_in",
+    "head_on",
+    "rear_end",
+    "side"
+  ],
+  "scenes": [
+    {
+      "key": "waymo-5eb5a3c117c479cb",
+      "dataset": "waymo",
+      "scenario_id": "5eb5a3c117c479cb",
+      "source_saved_payload_sha256": "61e3de34603c6f77f7e4f6c5887e472b6c9d551eb08e8846f7f1b1d4d151c36e",
+      "input_sha256": "b667d99c0e704b7cc4ae316a6165937f4c32b90f00f3875ba7ffb106ba446e91"
+    },
+    {
+      "key": "nuplan-d43b5371321a579d",
+      "dataset": "nuplan",
+      "scenario_id": "d43b5371321a579d",
+      "source_saved_payload_sha256": "3f9538df2c1e1517d142f246e32d3a2264d1b826163457d2c321349e460754a4",
+      "input_sha256": "a8348d868f76245964dc4a52286bce2a4f591356c83fcbbfcfffc01b716382ef"
+    },
+    {
+      "key": "waymo-d6c6c70cb4bfa516",
+      "dataset": "waymo",
+      "scenario_id": "d6c6c70cb4bfa516",
+      "source_saved_payload_sha256": "d87ae66f35cff449e4940fcf0f02be6f0cd2ee09e9d0c229f07980ba10734574",
+      "input_sha256": "ce0e83c7428311c874f461bf000f7b6306f56ac17791e828111595f6831c03ca"
+    },
+    {
+      "key": "nuplan-7f5b296944635d35",
+      "dataset": "nuplan",
+      "scenario_id": "7f5b296944635d35",
+      "source_saved_payload_sha256": "1f3c3c2f377c3b5c5d4bde63e447a9610e7526ebecb0bd86d9e590fef543444f",
+      "input_sha256": "b4282a0d342034be1f1cfb3ab881cad45b2dc11b175b7f9c8fb50dee715cbbb7"
+    },
+    {
+      "key": "waymo-e3addf46ded94c32",
+      "dataset": "waymo",
+      "scenario_id": "e3addf46ded94c32",
+      "source_saved_payload_sha256": "aab959f047bfc2a4556379490e9eeb40d08a8eedc27d9a352cd74c192bccddee",
+      "input_sha256": "1d7b1385acf2525b371dde3b049bb24ad4769974cecbd46825d76eb109c91155"
+    },
+    {
+      "key": "nuplan-9768c5ad4de3569b",
+      "dataset": "nuplan",
+      "scenario_id": "9768c5ad4de3569b",
+      "source_saved_payload_sha256": "1e2603fe0bfe817667f9d711a9cf3e0ea506fe20459e0cd462ae545f55e6765d",
+      "input_sha256": "a9807c5150d1ce0b79669c66175c62971eb7c311a841847c8545c830520ee2a8"
+    },
+    {
+      "key": "waymo-939040596817981d",
+      "dataset": "waymo",
+      "scenario_id": "939040596817981d",
+      "source_saved_payload_sha256": "e80be1dce3c9187e9a84bb3fa90dab1cc0bce49b7958ba43a983469aaeaf259c",
+      "input_sha256": "c287c8349bb3fef9c11ff4c59a6cdb801ff9aab1a0896b584c49ab72e9094e4f"
+    },
+    {
+      "key": "nuplan-b9f03625d9ec5cc0",
+      "dataset": "nuplan",
+      "scenario_id": "b9f03625d9ec5cc0",
+      "source_saved_payload_sha256": "6a158f526f18e48fa08046eb07c6461a7258e92a753201fde755ce511c932f9a",
+      "input_sha256": "7f57a40869de5c99e338cdffcf6d13b0d06bfa2240ea39c1de790f43a230ca92"
+    },
+    {
+      "key": "waymo-982f9ee795bc95f2",
+      "dataset": "waymo",
+      "scenario_id": "982f9ee795bc95f2",
+      "source_saved_payload_sha256": "b4baabf1a71066e1b24cb3bd134d7c88f083cd0621fe56499cf8abdba7b09929",
+      "input_sha256": "1ea0b8acdbf3667761cbf03226516d00ee7e22c18a2d74a96bb7327c52455833"
+    },
+    {
+      "key": "nuplan-b31037c5fdab5a36",
+      "dataset": "nuplan",
+      "scenario_id": "b31037c5fdab5a36",
+      "source_saved_payload_sha256": "2cac3711706e7afa8e35287d0cb354e268305d4b6821e8ad688b440ce9ba3469",
+      "input_sha256": "abcf5395f9ab6e13dc42ab36d7956fb8e15c76a5f3704062ec9e0d898b068e63"
+    }
+  ],
+  "limitations": [
+    "Saved detections, not a fresh run of the current selector.",
+    "Potential locations only; no contact or reachability validation.",
+    "All10 display payloads matched saved source; original nuPlan inputs for5 were unavailable at validation time.",
+    "Illustrative subset chosen by heuristic-label diversity, not benchmark selection."
+  ]
+}
